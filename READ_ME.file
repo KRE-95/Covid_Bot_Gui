@@ -1,0 +1,64 @@
+Before you come across your first error, let me give you the solution:
+
+This works just on version. 3.8 and anaconda is a must.
+If you use mac, this would be easier ( I am a mac user).
+
+https://pytorch.org/
+------------------------------------------------------------------------
+
+Mac User:
+---------
+step 1) Terminal
+
+On the terminal to the activate pytorch:
+
+ write: ~ conda create -n pytroch python=3.8
+ wait: ~ conda active pytorch
+when your inside it would be written (pytorch) ~
+on that paste this: conda install pytorch torchvision torchaudio -c pytorch
+
+
+step 2)
+on pycharm terminal enter this:  conda install pytorch torchvision torchaudio -c pytorch
+and pip 3
+
+
+- by the way Cuda don't work on mac, so no need to download.
+
+step 3) Import all the necessary libraries i have on the script, your welcome.
+
+----------------------------------------------------------------------------------
+
+Windows/linux:
+-------------
+- same thing but Cuda is a must - check which type of cuda works for your machine.
+
+Step 1 + 2)
+https://pytorch.org/get-started/locally/
+--- on terminal: conda install pytorch torchvision torchaudio -c pytorch
+
+
+step 3)  - Download also the cuda
+
+https://developer.nvidia.com/cuda-downloads
+-----------------------------------------------------------------------------
+---------------------------------
+Comment to teacher and the extern:
+---------------------------------
+UTF-8 was part of the assignment , than I kept it like that. But in reality it is suppose to work on USII.. on data.pth
+
+JSON file - these where more like directly copy and paste:
+"tag": "fact":
+https://www.fhi.no/en/op/novel-coronavirus-facts-advice/facts-and-knowledge-about-covid-19/facts-about-novel-coronavirus/
+
+"tag": "funny":
+https://www.fatherly.com/play/best-coronavirus-jokes/
+
+Not copy and paste --> inspiration :
+
+- on every script bellow would be written an source(s), for where I found the inspiration form.
+-----------------------------------------------------------------------------------------
+
+Author:
+Name: Kainat Rafat
+student_number : 202906

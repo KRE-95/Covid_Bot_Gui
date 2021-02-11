@@ -1,0 +1,140 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hi, Covid_bot"
+
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Welcome human, what can I help you? "
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Before you go! REMEMBER to have 2 meters gap,\n I don't know about me, but you should, bye!.",
+        "Remember to come back."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "Gracias"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What kind of items do you sell?",
+        "What kind of mask do you sell?",
+        "Do you sell anything else?",
+        "Do you sell N95 mask?"
+
+
+      ],
+      "responses": [
+        "We sell mask.",
+        "We sell antibacterial bottle and mask.",
+        "We have also antibacterial spray and mask and antibacterial  wet wipes",
+        "Yes, we sell N95.",
+        "We have mask like surgical mask, cloth mask and N95 mask."
+      ]
+    },
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Can I pay with Vipps?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, Paypal and Vipps.",
+        "We accept most major credit cards, and Paypal.",
+        "To pay with Vipps, just transfer the money on 45641\n you would get an personal sms, when it is confirmed."
+
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "How can I track my delivery? "
+      ],
+      "responses": [
+        "Delivery takes 2-4 days by PostNord",
+        "Shipping takes 2-4 days",
+        "You can track by sms, you'll get,\n when you have successfully had paid."
+      ]
+    },
+    {
+      "tag": "recommended",
+      "patterns": [
+         " What is recommended by FHI?",
+         " What is the recommended mask?"
+
+      ],
+      "responses": [
+
+        "We have mask like surgical mask, cloth mask and N95 mask,\n these are recommended by FHI.",
+        "The recommended by FHI is to stay at home, if you are sick.\n Wear mask in public transport and have safe gap."
+      ]
+    },
+    {
+      "tag": "fact",
+      "patterns": [
+         " Tell me facts?",
+         " Update me?",
+         "Do you know any facts"
+
+
+      ],
+      "responses": [
+
+        "Currently,there are no known cases of infection via \n food produced in Norway or imported, water and animals",
+        "In the Netherlands and Denmark, SARS-CoV-2 has \n been detected in mink,believed  been infected by keepers.",
+        "The new coronavirus causes respiratory infections,\n ranging from mild symptoms to severe disease and death."
+      ]
+    },
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+
+      ],
+      "responses": [
+        "What should you do if you don’t understand a \n coronavirus joke? Be patient.",
+        "So many coronavirus jokes out there, \n  it’s a pundemic.",
+        "Did you hear the joke about the germ? Never mind,\n  I don’t want to spread it around.",
+        "Yeah, I have plans tonight.  \n I’ll probably hit the living room around 8 or 9.",
+        "What types of jokes are allowed during quarantine? \n Inside jokes!",
+        "30 days hath September, April, June, and November,\n all the rest have 31, except for March which was infinite."
+
+      ]
+    }
+  ]
+}
